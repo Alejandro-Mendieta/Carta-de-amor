@@ -228,7 +228,7 @@ body {
 }
 
 .letter-button {
-  display: none; /* oculto hasta que la carta se abra */
+  display: block; /* oculto hasta que la carta se abra */
   margin-top: 15px;
   padding: 10px 20px;
   font-size: 16px;
