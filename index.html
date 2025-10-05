@@ -50,10 +50,18 @@
     </div>
 
     <!-- 🌼 Botón debajo de la carta -->
-    <p></p>
-    <p></p>
-    <button id="goToFlowers" class="letter-button"> PRESIONA EL BOTON ->❤️</button>
-  </div>
+      <p></p>
+      <p></p>
+      <button id="goToFlowers" class="letter-button">
+      PRESIONA EL BOTON ->❤️
+      </button>
+
+      <script>
+        document.getElementById("goToFlowers").addEventListener("click", function() {
+        window.location.href = "index1.html";
+        });
+      </script>
+
 
   <!-- 🎵 Audio oculto -->
   <audio id="bg-music" loop>
